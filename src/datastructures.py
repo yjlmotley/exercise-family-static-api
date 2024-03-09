@@ -8,12 +8,33 @@ update this file to implement the following already declared methods:
 """
 from random import randint
 
+initial_members = [
+    {
+        "name": "John",
+        "age": "33",
+        "lucky_numbers": [7, 13, 22]
+    },
+    {
+        "name": "Jane",
+        "age": "35",
+        "lucky_numbers": [10, 14, 3]
+    },
+    {
+        "name": "Jimmy",
+        "age": "5",
+        "lucky_numbers": [1]
+    }
+]
+
+
 class FamilyStructure:
     def __init__(self, last_name):
         self.last_name = last_name
 
         # example list of members
-        self._members = []
+        self._members = initial_members
+        # USE A FOR LOOP = SELF.ADD_MEMBER
+        
 
     # read-only: Use this method to generate random members ID's when adding members into the list
     def _generateId(self):
