@@ -17,21 +17,21 @@ class FamilyStructure:
         "id": 0,
         "first_name": "John",
         "last_name": self.last_name,
-        "age": "33",
+        "age": 33,
         "lucky_numbers": [7, 13, 22]
     },
     {
         "id": 1,
         "first_name": "Jane",
         "last_name": self.last_name,
-        "age": "35",
+        "age": 35,
         "lucky_numbers": [10, 14, 3]
     },
     {
         "id": 2,
         "first_name": "Jimmy",
         "last_name": self.last_name,
-        "age": "5",
+        "age": 5,
         "lucky_numbers": [1]
     }
 ]
